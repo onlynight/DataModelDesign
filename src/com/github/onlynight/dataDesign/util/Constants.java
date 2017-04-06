@@ -1,4 +1,4 @@
-package com.github.onlynight.dataDesign.util;
+package com.github.onlynight.datadesign.util;
 
 /**
  * Created by lion on 2017/4/6.

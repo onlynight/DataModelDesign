@@ -1,4 +1,4 @@
-package com.github.onlynight.dataDesign.data;
+package com.github.onlynight.datadesign.data;
 
 import com.sun.istack.internal.NotNull;
 

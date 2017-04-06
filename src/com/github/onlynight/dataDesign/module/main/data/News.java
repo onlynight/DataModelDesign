@@ -1,6 +1,6 @@
-package com.github.onlynight.dataDesign.module.main.data;
+package com.github.onlynight.datadesign.module.main.data;
 
-import com.github.onlynight.dataDesign.http.BaseHttpResult;
+import com.github.onlynight.datadesign.http.BaseHttpResult;
 
 import java.util.List;
 

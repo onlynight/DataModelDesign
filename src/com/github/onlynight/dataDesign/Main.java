@@ -1,6 +1,6 @@
-package com.github.onlynight.dataDesign;
+package com.github.onlynight.datadesign;
 
-import com.github.onlynight.dataDesign.module.main.MainActivity;
+import com.github.onlynight.datadesign.module.main.MainActivity;
 
 /**
  * @author lion

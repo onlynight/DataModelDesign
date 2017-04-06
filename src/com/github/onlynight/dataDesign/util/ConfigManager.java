@@ -1,6 +1,6 @@
-package com.github.onlynight.dataDesign.util;
+package com.github.onlynight.datadesign.util;
 
-import com.github.onlynight.dataDesign.http.HttpManager;
+import com.github.onlynight.datadesign.http.HttpManager;
 
 /**
  * Created by lion on 2017/4/6.

@@ -1,6 +1,6 @@
-package com.github.onlynight.dataDesign.data;
+package com.github.onlynight.datadesign.data;
 
-import com.github.onlynight.dataDesign.data.OnRequestListener.OnDataSourceListener;
+import com.github.onlynight.datadesign.data.OnRequestListener.OnDataSourceListener;
 import com.sun.istack.internal.NotNull;
 
 /**

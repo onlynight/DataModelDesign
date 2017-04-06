@@ -1,10 +1,10 @@
-package com.github.onlynight.dataDesign.module.main.data;
+package com.github.onlynight.datadesign.module.main.data;
 
-import com.github.onlynight.dataDesign.data.BaseDataSource;
-import com.github.onlynight.dataDesign.data.OnRequestListener;
-import com.github.onlynight.dataDesign.data.SimpleRepository;
-import com.github.onlynight.dataDesign.module.main.data.source.KLineDataSource;
-import com.github.onlynight.dataDesign.module.main.data.source.NewsDataSource;
+import com.github.onlynight.datadesign.data.BaseDataSource;
+import com.github.onlynight.datadesign.data.OnRequestListener;
+import com.github.onlynight.datadesign.data.SimpleRepository;
+import com.github.onlynight.datadesign.module.main.data.source.KLineDataSource;
+import com.github.onlynight.datadesign.module.main.data.source.NewsDataSource;
 import com.sun.istack.internal.NotNull;
 
 /**

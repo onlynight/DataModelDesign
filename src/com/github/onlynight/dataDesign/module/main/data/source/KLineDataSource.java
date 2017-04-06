@@ -1,9 +1,9 @@
-package com.github.onlynight.dataDesign.module.main.data.source;
+package com.github.onlynight.datadesign.module.main.data.source;
 
-import com.github.onlynight.dataDesign.data.BaseDataSource;
-import com.github.onlynight.dataDesign.data.OnRequestListener;
-import com.github.onlynight.dataDesign.http.HttpManager;
-import com.github.onlynight.dataDesign.module.main.data.KLine;
+import com.github.onlynight.datadesign.data.BaseDataSource;
+import com.github.onlynight.datadesign.data.OnRequestListener;
+import com.github.onlynight.datadesign.http.HttpManager;
+import com.github.onlynight.datadesign.module.main.data.KLine;
 import com.sun.istack.internal.NotNull;
 
 import java.util.ArrayList;

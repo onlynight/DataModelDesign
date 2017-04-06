@@ -1,11 +1,11 @@
-package com.github.onlynight.dataDesign.module.main;
+package com.github.onlynight.datadesign.module.main;
 
-import com.github.onlynight.dataDesign.data.OnRequestListener;
-import com.github.onlynight.dataDesign.http.Response;
-import com.github.onlynight.dataDesign.module.main.data.KLine;
-import com.github.onlynight.dataDesign.module.main.data.News;
-import com.github.onlynight.dataDesign.module.main.data.MainActivityRepository;
-import com.github.onlynight.dataDesign.util.LogUtils;
+import com.github.onlynight.datadesign.data.OnRequestListener;
+import com.github.onlynight.datadesign.http.Response;
+import com.github.onlynight.datadesign.module.main.data.KLine;
+import com.github.onlynight.datadesign.module.main.data.News;
+import com.github.onlynight.datadesign.module.main.data.MainActivityRepository;
+import com.github.onlynight.datadesign.util.LogUtils;
 
 /**
  * Created by lion on 2017/4/6.

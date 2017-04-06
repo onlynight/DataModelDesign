@@ -1,4 +1,4 @@
-package com.github.onlynight.dataDesign.http;
+package com.github.onlynight.datadesign.http;
 
 /**
  * Created by lion on 2017/4/6.

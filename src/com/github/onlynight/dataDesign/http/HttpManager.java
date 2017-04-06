@@ -1,7 +1,7 @@
-package com.github.onlynight.dataDesign.http;
+package com.github.onlynight.datadesign.http;
 
-import com.github.onlynight.dataDesign.data.OnRequestListener;
-import com.github.onlynight.dataDesign.util.LogUtils;
+import com.github.onlynight.datadesign.data.OnRequestListener;
+import com.github.onlynight.datadesign.util.LogUtils;
 import com.sun.istack.internal.NotNull;
 
 import java.lang.reflect.ParameterizedType;

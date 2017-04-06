@@ -1,6 +1,6 @@
-package com.github.onlynight.dataDesign.data;
+package com.github.onlynight.datadesign.data;
 
-import com.github.onlynight.dataDesign.http.Response;
+import com.github.onlynight.datadesign.http.Response;
 
 /**
  * Created by lion on 2017/4/6.

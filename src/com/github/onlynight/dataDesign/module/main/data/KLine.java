@@ -1,4 +1,4 @@
-package com.github.onlynight.dataDesign.module.main.data;
+package com.github.onlynight.datadesign.module.main.data;
 
 import java.util.List;
 
