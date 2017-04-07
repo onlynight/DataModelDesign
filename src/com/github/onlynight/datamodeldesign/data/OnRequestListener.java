@@ -26,14 +26,14 @@ public interface OnRequestListener<T> {
 
     /**
      * when {@link OnRequestListener#onFinish(boolean, boolean, Object, Response)} be called,
-     * then will call {@link OnDataSourceListener#onChange(int)} method.
+     * then will call {@link OnDataSourceListener#onChange(int, boolean)} method.
      * it will tell the listener the request state and do which action.
      * {@link OnDataSourceListener#GET_DATA_SUCCESS}
      * {@link OnDataSourceListener#REQUEST_FAKE_DATA}
      * {@link OnDataSourceListener#REQUEST_LOCAL_DATA}
      * {@link OnDataSourceListener#REQUEST_REMOTE_DATA}
      */
-    interface OnDataSourceListener {
+    interface OnDataSourceListener<T> {
         /**
          * request data state
          */
@@ -54,8 +54,8 @@ public interface OnRequestListener<T> {
          * when {@link OnRequestListener#onFinish(boolean, boolean, Object, Response)} be called,
          * then this method will be called.
          *
-         * @param state
+         * @param state request data state
          */
-        void onChange(int state);
+        void onChange(int state, BaseDataSource<T> dataSource, OnRequestListener<T> listener, Object... args);
     }
 }

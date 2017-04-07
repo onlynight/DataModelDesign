@@ -1,5 +1,6 @@
 package com.github.onlynight.datamodeldesign.http;
 
+import com.github.onlynight.datamodeldesign.data.BaseDataSource;
 import com.github.onlynight.datamodeldesign.data.OnRequestListener;
 import com.github.onlynight.datamodeldesign.util.LogUtils;
 import com.sun.istack.internal.NotNull;
@@ -51,8 +52,10 @@ public class HttpManager {
     }
 
     public <T> void get(String action, Map<String, String> params,
+                        BaseDataSource<T> dataSource,
                         @NotNull OnRequestListener<T> listener,
-                        @NotNull OnRequestListener.OnDataSourceListener dataSourceListener) {
+                        @NotNull OnRequestListener.OnDataSourceListener<T> dataSourceListener,
+                        Object... args) {
         // TODO: 2017/4/6 send a http get request
         /**
          * you can use Gson or FastJson to parse json to JavaBean with this type;
@@ -60,13 +63,15 @@ public class HttpManager {
         Type type = getTemplate(listener);
         int state = listener.onFinish(true, true, null, null);
         if (dataSourceListener != null) {
-            dataSourceListener.onChange(state);
+            dataSourceListener.onChange(state, dataSource, listener, args);
         }
     }
 
     public <T> void post(String action, Map<String, String> params,
+                         BaseDataSource<T> dataSource,
                          @NotNull OnRequestListener<T> listener,
-                         @NotNull OnRequestListener.OnDataSourceListener dataSourceListener) {
+                         @NotNull OnRequestListener.OnDataSourceListener<T> dataSourceListener,
+                         Object... args) {
         // TODO: 2017/4/6 send a http post request
         /**
          * you can use Gson or FastJson to parse json to JavaBean with this type;
@@ -74,7 +79,7 @@ public class HttpManager {
         Type type = getTemplate(listener);
         int state = listener.onFinish(true, true, null, null);
         if (dataSourceListener != null) {
-            dataSourceListener.onChange(state);
+            dataSourceListener.onChange(state, dataSource, listener, args);
         }
     }
 

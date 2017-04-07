@@ -1,24 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="385fb4ff-8fe3-4da0-a56c-a5a1e85257a1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/data/BaseDataSource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/data/BaseRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/data/OnRequestListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/data/SimpleRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/http/BaseHttpResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/http/HttpManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/http/Response.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/module/main/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/module/main/data/KLine.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/module/main/data/MainActivityRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/module/main/data/News.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/module/main/data/source/KLineDataSource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/module/main/data/source/NewsDataSource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/util/ConfigManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/util/Constants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/util/LogUtils.java" afterPath="" />
+    <list default="true" id="385fb4ff-8fe3-4da0-a56c-a5a1e85257a1" name="Default" comment="finish data model design">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/SimpleDataSource.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/data/BaseDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/data/BaseRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/data/OnRequestListener$OnDataSourceListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/data/OnRequestListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/data/SimpleRepository$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/data/SimpleRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/http/BaseHttpResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/http/HttpManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/http/Response.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/module/main/MainActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/module/main/MainActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/module/main/MainActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/module/main/data/KLine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/module/main/data/MainActivityRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/module/main/data/News$NewsItem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/module/main/data/News.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/module/main/data/source/KLineDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/module/main/data/source/NewsDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/util/ConfigManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/util/Constants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModelDesign/com/github/onlynight/datamodeldesign/util/LogUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/data/BaseDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/data/BaseRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/data/OnRequestListener$OnDataSourceListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/data/OnRequestListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/data/SimpleRepository$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/data/SimpleRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/http/BaseHttpResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/http/HttpManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/http/Response.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/module/main/MainActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/module/main/MainActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/module/main/MainActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/module/main/data/KLine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/module/main/data/MainActivityRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/module/main/data/News$NewsItem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/module/main/data/News.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/module/main/data/source/KLineDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/module/main/data/source/NewsDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/util/ConfigManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/util/Constants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataModuleDesign/com/github/onlynight/datadesign/util/LogUtils.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/BaseDataSource.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/BaseDataSource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/BaseRepository.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/BaseRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/OnRequestListener.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/OnRequestListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/SimpleRepository.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/SimpleRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/http/HttpManager.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/http/HttpManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/module/main/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/module/main/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/module/main/data/MainActivityRepository.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/module/main/data/MainActivityRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/module/main/data/source/KLineDataSource.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/module/main/data/source/KLineDataSource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/module/main/data/source/NewsDataSource.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/module/main/data/source/NewsDataSource.java" />
     </list>
     <ignored path="DataModuleDesign.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +77,28 @@
     <favorites_list name="DataModuleDesign" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="SimpleRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/SimpleRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,6 +149,17 @@
         <option value="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/util/ConfigManager.java" />
         <option value="$PROJECT_DIR$/src/com/github/onlynight/dataDesign/Main.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/BaseRepository.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/OnRequestListener.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/http/HttpManager.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/SimpleRepository.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/module/main/data/MainActivityRepository.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/BaseDataSource.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/SimpleDataSource.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/module/main/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/module/main/data/source/NewsDataSource.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/module/main/data/source/KLineDataSource.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -163,6 +234,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="datamodeldesign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataModelDesign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataModelDesign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datamodeldesign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -471,7 +564,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40023896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -479,7 +572,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39904988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39904422" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -489,30 +582,30 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39904988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40023896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39904988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -533,7 +626,39 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/SimpleRepository.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/SimpleRepository.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/SimpleRepository.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/SimpleRepository.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/module/main/MainActivity.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -710,6 +835,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/BaseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/module/main/data/KLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/OnRequestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/module/main/data/MainActivityRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/http/HttpManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/BaseDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="52" column="27" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/SimpleDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/module/main/data/source/KLineDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/module/main/data/source/NewsDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="899">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/module/main/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/datamodeldesign/data/SimpleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

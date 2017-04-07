@@ -30,11 +30,33 @@ public abstract class BaseRepository {
     /**
      * request data with data source.
      *
-     * @param type     you should define it in your class and return different with this type.
+     * @param type     data source
      * @param listener request data callback
      * @param args     params
      */
     public abstract void getData(int type,
                                  @NotNull OnRequestListener listener,
                                  Object... args);
+
+    /**
+     * request local data source first
+     *
+     * @param dataSource you should define it in your class and return different with this type.
+     * @param listener   request data callback
+     * @param args       params
+     */
+    public abstract <T> void getLocalDataFirst(BaseDataSource<T> dataSource,
+                                               @NotNull OnRequestListener<T> listener,
+                                               Object... args);
+
+    /**
+     * request local data source first
+     *
+     * @param type     you should define it in your class and return different with this type.
+     * @param listener request data callback
+     * @param args     params
+     */
+    public abstract void getLocalDataFirst(int type,
+                                           @NotNull OnRequestListener listener,
+                                           Object... args);
 }

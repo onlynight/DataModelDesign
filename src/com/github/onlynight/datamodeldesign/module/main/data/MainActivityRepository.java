@@ -59,6 +59,18 @@ public class MainActivityRepository extends SimpleRepository {
         }
     }
 
+    @Override
+    public void getLocalDataFirst(int type, @NotNull OnRequestListener listener, Object... args) {
+        switch (type) {
+            case DATA_TYPE_NEWS:
+                getLocalDataFirst(getDataSource(type), listener, args);
+                break;
+            case DATA_TYPE_KLINE:
+                getLocalDataFirst(getDataSource(type), listener, args);
+                break;
+        }
+    }
+
     public void getNews(int page, int size,
                         @NotNull OnRequestListener<News> listener) {
         getData(DATA_TYPE_NEWS, listener, page, size);
@@ -66,6 +78,6 @@ public class MainActivityRepository extends SimpleRepository {
 
     public void getKLine(long time,
                          @NotNull OnRequestListener<KLine> listener) {
-        getData(DATA_TYPE_KLINE, listener, time);
+        getLocalDataFirst(DATA_TYPE_KLINE, listener, time);
     }
 }
